@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 75px;
+    display: flex;
+    background-color: #9a3b75;
+}
+.logo img{
+    height: 30px;
+    margin-right: 200px;
+    margin-left: 20px;
+    height: 70px;
+    width: 90px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    margin-top: 40px;
+}
+.navbar nav{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color:#9a3b75;
+    border-radius: 10px 25px 5px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.home{
+    height: 500px;
+    background-image: url(images/wardrobe1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Home Section */
+.text h1{
+    line-height: 200%;
+    font-size: 3rem;
+    padding-top: 70px;
+    padding-left: 40px;
+    color: white;
+    font-weight: 800;
+    font-style: normal;
+    
+}
+
+.text p{
+    line-height: 150%;
+    font-size: 1.5rem;
+    padding-top: 6px;
+    padding-left: 60px;
+    color: white;
+    font-weight: 300;
+    font-style: oblique;
+    letter-spacing: 6px;
+    padding-bottom: 30px;
+}
+
+.orderbtn{
+    background-color: white;
+    color: #9a3b75;
+    font-size: 1.5rem;
+    padding: 7px 12px;
+    border: 2px solid #9a3b75;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-top: 90px;
+    transition: 0.5s;
+}
+
+.orderbtn:hover{
+    background-color: #9a3b75;
+    color: white;
+    border-radius: 20px;
+}
+
+/* services section */
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card img{
+    height: 230px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow:10px 10px 20px black;
+}
+.card img:hover{
+    box-shadow:10px 10px 20px #9a3b75;
+}
+.services1{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 40px;
+    font-style: oblique;
+    border-bottom: groove black;
+    font-weight: 900;
+    margin-top: 90px;
+    box-shadow:10px 10px 20px black;
+}
+.services2{
+    font-weight: 500;
+    text-align: center;
+    font-style: normal;
+    margin-top: 50px;
+    font-size: 1.4rem;
+    border-bottom: groove;
+}
+
+.card h1, p{
+    font-weight: bold;
+    line-height: 150%;
+    margin: 0px 8px;
+}
+.container .row{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: groove black;
+}
+.container a img{
+    height: 230px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow:10px 10px 20px black;
+    color: pink;
+}
+.container a img:hover{
+    box-shadow:10px 10px 20px #9a3b75;
+}
+.container .head{
+    color: black;
+    font-size: 1rem;
+    font-style: normal;
+}
+.row img{
+    height: 240px;
+    width: 190px;
+}
+
+.row:hover > :not(:hover){
+    opacity: 0.4;
+}
+.row figure{
+    display: grid;
+    grid-template:"stack";
+}
+.row figure > *{
+    grid-area:stack;
+}
+.row figure >figcaption{
+    opacity:0;
+    transition:opacity 200ms;
+    text-align: center;
+    margin-top: 90%;
+    margin-right:38px;
+    color: black;
+}
+
+.row figure figcaption a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 1rem;
+    border:groove white;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 6px;
+}
+.row figure figcaption a:hover{
+    background-color: black;
+    color:white;
+}
+
+/* client section */
+
+.client h1{
+    font-weight: bold;
+    font-weight: 700;
+    font-style: oblique;
+    font-family: 1.5rem;
+    color: black;
+    }
+    
+    .client::before{
+        background-image: url(images/wardrobe1.jpg);
+        background-size: cover;
+        position: absolute;
+        height: 400px;
+        width: 100%;
+        left: 0;
+        content: "";
+        z-index: -1;
+        opacity: 0.7;
+    }
+    
+    .client img{
+        height: 200px;
+        padding: 15px 20px;
+        justify-content: space-around;
+    }
+    .client img:hover{
+        border: groove black;
+        box-shadow:10px 10px 20px black;
+    }
+    .client{
+        margin: 100px;
+        text-align: center;
+    }
+footer{
+    background-color: #9a3b75;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: oblique;
+    padding: 25px;
+}
+.logo h4{
+    font-style: normal;
+    font-size: 1.4rem;
+    padding-top: 25px;
+    color: white;
+    padding-left: 18px;
+    font-weight: 200;
+    font-style: oblique;
+}

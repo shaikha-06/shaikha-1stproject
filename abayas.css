@@ -1,0 +1,129 @@
+.card1{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: groove black;
+    margin-top: 20px;
+}
+.carda img{
+    height: 200px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow:10px 10px 20px #9a3b75;
+}
+.carda img:hover{
+    box-shadow:10px 10px 20px black;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: groove black;
+    margin-top: 20px;
+}
+.carda img{
+    height: 200px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow:10px 10px 20px #9a3b75;
+}
+.carda img:hover{
+    box-shadow:10px 10px 20px black;
+}
+
+.card3{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: groove black;
+    margin-top: 20px;
+}
+.carda img{
+    height: 200px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow:10px 10px 20px #9a3b75;
+}
+.carda img:hover{
+    box-shadow:10px 10px 20px black;
+}
+.card4{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: groove black;
+    margin-top: 20px;
+}
+.carda img{
+    height: 200px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow:10px 10px 20px #9a3b75;
+}
+.carda img:hover{
+    box-shadow:10px 10px 20px black;
+}
+h1{
+    text-align: center;
+    font-style: oblique;
+    font-size: 1.9rem;
+    border-bottom: groove black;
+    box-shadow:10px 10px 20px #9a3b75;
+}
+footer{
+    background-color: #9a3b75;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: oblique;
+    padding: 25px;
+}
+.container .row{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: groove black;
+}
+.container a img{
+    height: 230px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow:10px 10px 20px black;
+    color: pink;
+}
+.container a img:hover{
+    box-shadow:10px 10px 20px #9a3b75;
+}
+
+.row:hover > :not(:hover){
+    opacity: 0.4;
+}
+.row figure{
+    display: grid;
+    grid-template:"stack";
+}
+.row figure > *{
+    grid-area:stack;
+}
+.row figure >figcaption{
+    opacity:0;
+    transition:opacity 200ms;
+    text-align: center;
+    margin-top: 90%;
+    margin-right:38px;
+    color: black;
+}
+
+.row figure figcaption a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 1rem;
+    border:groove white;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 6px;
+}
+.row figure figcaption a:hover{
+    background-color: black;
+    color:white;
+}
